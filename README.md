@@ -79,7 +79,15 @@ COST : ₹400
 
  Total Cost Range: ₹3750
 
----
+###  Circuit Diagram    
+
+IMAGE 1 (in files /code section):
+Colored AI-generated replica of the actual circuit setup 
+
+###  Field Setup  
+ 
+IMAGE 2 (in files /code section): 
+AI-illustrated image showing real-life prototype placement
 
 ## Field Testing Note
 
