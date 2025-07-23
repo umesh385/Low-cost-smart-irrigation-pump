@@ -87,7 +87,8 @@ Colored AI-generated replica of the actual circuit setup for clarity
 
 ###  Field Setup  
  
-[Field setup](IMG_20250723_134712.jpg) :
+[Field setup](field-setup.png_ AI image of actual field setup.jpg) :
+
 AI-illustrated image showing real-life prototype placement for clarity
 
 ## Field Testing Note
