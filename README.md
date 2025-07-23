@@ -71,12 +71,6 @@ COST : ₹250
 
  Total Cost Range: ₹3350
 
-
-
-## Visual Diagram
-
-
-
 ---
 
 ## Field Testing Note
