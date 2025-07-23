@@ -19,7 +19,7 @@ A smart, low-cost, sensor-controlled irrigation system using an Arduino, built f
 - Automatic motor ON/OFF system
 - Can be expanded with Light and Temperature sensors, 
   timers ,TinyML
-
+- Water Flow Sensor detects movement and amount of water 
 ---
 
 ## How It Works
