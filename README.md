@@ -17,7 +17,8 @@ A smart, low-cost, sensor-controlled irrigation system using an Arduino, built f
 - Soil moisture sensor detects dryness
 - Relay-based DC motor pump control
 - Automatic motor ON/OFF system
-- Can be expanded with flow sensors, timers, or TinyML
+- Can be expanded with Light and Temperature sensors, 
+  timers ,TinyML
 
 ---
 
