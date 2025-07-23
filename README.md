@@ -25,8 +25,13 @@ A smart, low-cost, sensor-controlled irrigation system using an Arduino, built f
 
 1. Soil moisture is constantly monitored.
 2. If moisture is below a threshold, the motor turns ON.
-3. When the soil is wet enough, the motor turns OFF.
-4. The full system runs on a low-power Arduino setup.
+3. The water flow sensor confirms that the water is 
+   actually flowing and the amount of water used shows on 
+   screen 
+4. When the soil is wet enough, the motor turns OFF.
+5. The full system runs on a low-power Arduino setup.
+6. This ensure that water is only used when needed and
+   prevents water wastage and system failure  
 
 ---
 
@@ -64,12 +69,14 @@ COST : ₹300
 
 PVC Pipe / Hose	Carries water from the motor to the crop field (optional, but common)	
 COST : ₹250
-
-
+ 
+Water Flow Sensor :
+Detects water movement and flow rate
+COST : ₹400
 
 ---
 
- Total Cost Range: ₹3350
+ Total Cost Range: ₹3750
 
 ---
 
@@ -85,7 +92,7 @@ Rather than share unclear or messy photos, I’ve used AI-generated illustration
 
 ## Future Improvements
 
-- Add a water flow sensor
+- Add a Light sensor 
 - Mobile app-based control
 - Solar power integration
 - Use TinyML to predict water needs based on weather + soil
