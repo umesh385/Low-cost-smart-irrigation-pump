@@ -87,7 +87,7 @@ I have fully built and tested the Smart Motor Pump System using real components 
 
 Because of this, I could not take clean or presentable pictures — the soil moisture sensor was covered in dirt, the motor was submerged in the well, and the wiring was exposed and open, as typical in early-stage field prototypes.
 
-Rather than share unclear or messy photos, I’ve used AI-generated illustrations that accurately replicate the physical model. Every component and connection shown in the visuals reflects the real setup. I chose this approach purely for clarity and ease of explanation, as the illustration makes the working of the system easier to understand than raw images.
+Rather than share unclear or messy photos, I’ve used AI-generated illustrations that accurately replicate the physical model. Every component and connection shown in the visuals reflects the real setup. I chose this approach purely for clarity and ease of explanation, as the illustration makes the working of the system easier to understand than raw images and same with the circuit diagram of it as my drawing is not too good.
 
 ---
 
