@@ -100,17 +100,43 @@ Because of this, I could not take clean or presentable pictures — the soil moi
 Rather than share unclear or messy photos, I’ve used AI-generated illustrations that accurately replicate the physical model. Every component and connection shown in the visuals reflects the real setup. I chose this approach purely for clarity and ease of explanation, as the illustration makes the working of the system easier to understand than raw images and same with the circuit diagram of it as my drawing is not that good for post it professionally on GitHub 
 
 ---
-##  Code Overview
+###  Code Overview
+## Code Explanation
 
-This Arduino code controls the smart irrigation system. It:
-- Reads soil moisture from analog pin A0
-- Monitors water flow using a digital sensor on pin D2
-- Controls motor ON/OFF using relay on pin D7
-- Displays live status on Serial Monitor
+This Arduino code controls a smart irrigation pump based on soil moisture and water flow readings. Here's how it works:
 
-Logic:
-- IF soil is dry AND water is flowing → Pump ON
-- ELSE → Pump OFF
+Soil Moisture Sensor (A0): Measures the dryness of the soil. If the moisture value is above a set threshold, it means the soil is dry.
+
+Water Flow Sensor (D2): Measures water flow rate using pulse counting. It helps ensure the pump is only activated when water is actually flowing.
+
+Relay Module (D7): Acts like a switch to turn the pump ON or OFF.
+
+## Logic Flow:
+
+1. The system constantly reads the soil moisture value.
+
+
+2. Every 1 second, it calculates the water flow rate in liters per minute.
+
+
+3. If:
+
+Soil is dry (moistureValue > 500)
+
+AND water is flowing (flowRate > 0.5 L/min) → The pump turns ON.
+
+
+
+4. If the soil is already wet or no water is detected, the pump stays OFF.
+
+ ## Features of code :
+
+Uses interrupts for accurate flow rate counting.
+
+Prevents pump from running if water isn't flowing (protects motor).
+
+Energy efficient and suitable for rural low-power setups.
+
 
 ##  How to Use
 
