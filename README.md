@@ -18,7 +18,7 @@ Automatically turns pump ON when soil is dry
 - Shuts pump OFF when soil is wet or water flow is insufficient
 - Relay-based motor control using Arduino
 - Field-tested in actual rural conditions
-- AI-generated images to visualize working and circuit
+- AI-generated images to visualize working and circuit for clarity
 - Water Flow Sensor detects movement and amount of water 
 - Soil sensor detects the moisture and need of water in soil
 ---
@@ -83,12 +83,12 @@ COST : ₹400
 ###  Circuit Diagram    
 
 [Circuit Daigram](IMG_20250723_134800.jpg) :
-Colored AI-generated replica of the actual circuit setup 
+Colored AI-generated replica of the actual circuit setup for clarity
 
 ###  Field Setup  
  
 [Field setup](IMG_20250723_134712.jpg) :
-AI-illustrated image showing real-life prototype placement
+AI-illustrated image showing real-life prototype placement for clarity
 
 ## Field Testing Note
 
