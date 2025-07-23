@@ -82,7 +82,7 @@ COST : ₹400
 
 ###  Circuit Diagram    
 
-[Circuit Daigram](IMG_20250723_134800.jpg) :
+[Circuit Daigram](colored-circuit-diagram.png.jpg) :
 Colored AI-generated replica of the actual circuit setup for clarity
 
 ###  Field Setup  
