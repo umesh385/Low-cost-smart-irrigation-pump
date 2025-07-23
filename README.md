@@ -115,17 +115,13 @@ Relay Module (D7): Acts like a switch to turn the pump ON or OFF.
 
 1. The system constantly reads the soil moisture value.
 
-
 2. Every 1 second, it calculates the water flow rate in liters per minute.
-
 
 3. If:
 
 Soil is dry (moistureValue > 500)
 
 AND water is flowing (flowRate > 0.5 L/min) → The pump turns ON.
-
-
 
 4. If the soil is already wet or no water is detected, the pump stays OFF.
 
@@ -155,6 +151,11 @@ Energy efficient and suitable for rural low-power setups.
 - Use TinyML to predict water needs based on weather + soil
 - temperature reader and sesor 
 ---
+##  Use of AI Illustration 
+
+> All visuals used are AI-generated replicas of the actual working model.  
+> These were created to improve clarity because the real prototype was tested in muddy, wet rural conditions where clean photography wasn't possible.  
+> Every connection shown in the illustrations reflects the actual, field-tested setup.
 
 ## Built By
 
