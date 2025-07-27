@@ -150,7 +150,9 @@ Energy efficient and suitable for rural low-power setups.
 ##. Future Improvements 
 
 - Add a light sensor.
-- Mobile app- based control.
+- Mobile app- based control so that farmers do not need 
+  to go to the farms just for irrigation in hot summers 
+  and cold winters.
 - Solar power integration.
 - Use tinyML to predict water needs based on wheather +   soil and crop type.
 - Temperature reader and sesor. 
