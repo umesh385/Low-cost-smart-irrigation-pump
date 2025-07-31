@@ -3,6 +3,10 @@
 
 A smart, low cost, sensor controlled  irrigation system using an arduino, built for small rural farms. This  project uses soil moisture sensor and relay modules to automate water flow via a DC motor pump, saving water and energy while ensuring timely irrigation.
 
+### Motivation
+This project was born from my firsthand experience growing up around small-scale farmers. I saw how much water and electricity were wasted due to manual motor control and unpredictable irrigation needs. I wanted to build a solution that’s smart, low-cost, and field-ready.
+
+
 ---
 
 ##. Project Purpose 
